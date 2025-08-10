@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple E-Commerce with Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Simple E-Commerce</h1>
+
+  <div id="search-bar" role="search">
+    <input type="text" id="search-input" placeholder="Search products..." aria-label="Search products" />
+    <button id="search-btn" aria-label="Search">Search</button>
+    <button id="clear-btn" aria-label="Clear search">Clear</button>
+  </div>
+
+  <div class="products" id="products"></div>
+
+  <div class="cart">
+    <h2>Cart</h2>
+    <div id="cart-items"></div>
+    <div class="cart-total" id="cart-total">Total: $0.00</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
